@@ -6,6 +6,8 @@ metadata: # kpt-merge: default/oai-packages
   labels:
     kpt.dev/repository-access: read-only
     kpt.dev/repository-content: external-blueprints
+    nephio.org/region: it
+    nephio.org/site-type: oai-5g
   annotations:
     internal.kpt.dev/upstream-identifier: 'config.porch.kpt.dev|Repository|default|oai-packages'
 spec:
