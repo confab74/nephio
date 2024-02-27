@@ -8,7 +8,6 @@ metadata: # kpt-merge: /udr-nudr
     nf: udr
   annotations:
     internal.kpt.dev/upstream-identifier: '|Service|default|udr-nudr'
-  namespace: free5gc-cp
 spec:
   type: ClusterIP
   ports:

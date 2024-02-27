@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata: # kpt-merge: default/mongodb
   name: mongodb
-  namespace: free5gc-cp
+  namespace: default
   labels:
     app.kubernetes.io/name: mongodb
     app.kubernetes.io/instance: free5gc

@@ -8,7 +8,6 @@ metadata: # kpt-merge: /nrf-nnrf
     nf: nrf
   annotations:
     internal.kpt.dev/upstream-identifier: '|Service|default|nrf-nnrf'
-  namespace: free5gc-cp
 spec:
   type: ClusterIP
   ports:

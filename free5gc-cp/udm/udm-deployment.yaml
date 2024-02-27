@@ -8,7 +8,6 @@ metadata: # kpt-merge: /free5gc-udm
     nf: udm
   annotations:
     internal.kpt.dev/upstream-identifier: 'apps|Deployment|default|free5gc-udm'
-  namespace: free5gc-cp
 spec:
   replicas: 1
   selector:
