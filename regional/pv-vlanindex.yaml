@@ -4,6 +4,9 @@ metadata: # kpt-merge: /example-vlanindex
   name: regional-vlanindex
   annotations:
     internal.kpt.dev/upstream-identifier: 'config.porch.kpt.dev|PackageVariant|default|example-vlanindex'
+  labels:
+    nephio.org/region: it
+    nephio.org/site-type: regional
 spec:
   annotations:
     approval.nephio.org/policy: initial

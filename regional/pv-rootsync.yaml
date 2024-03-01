@@ -4,6 +4,9 @@ metadata: # kpt-merge: /example-rootsync
   name: regional-rootsync
   annotations:
     internal.kpt.dev/upstream-identifier: 'config.porch.kpt.dev|PackageVariant|default|example-rootsync'
+  labels:
+    nephio.org/region: it
+    nephio.org/site-type: regional
 spec:
   annotations:
     approval.nephio.org/policy: initial

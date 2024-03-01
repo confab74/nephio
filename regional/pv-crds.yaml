@@ -4,6 +4,9 @@ metadata: # kpt-merge: /example-crds
   name: regional-crds
   annotations:
     internal.kpt.dev/upstream-identifier: 'config.porch.kpt.dev|PackageVariant|default|example-crds'
+  labels:
+    nephio.org/region: it
+    nephio.org/site-type: regional
 spec:
   annotations:
     approval.nephio.org/policy: initial

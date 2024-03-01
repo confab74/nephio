@@ -4,6 +4,9 @@ metadata: # kpt-merge: /example-local-path-provisioner
   name: regional-local-path-provisioner
   annotations:
     internal.kpt.dev/upstream-identifier: 'config.porch.kpt.dev|PackageVariant|default|example-local-path-provisioner'
+  labels:
+    nephio.org/region: it
+    nephio.org/site-type: regional
 spec:
   annotations:
     approval.nephio.org/policy: initial
